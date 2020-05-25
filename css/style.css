@@ -108,7 +108,8 @@ line-height: 53px;
 }
 .btn-block{
   margin-top: 20px;
-margin-left: 570px;
+
+justify-content: center;
 }
 /*------------------------------------------*/
 .title-following{
@@ -118,9 +119,9 @@ margin-top: 0px;
 }
 .box{
 display: flex;
+justify-content: center;
 }
 .img-following{
-padding-left: 200px;
 }
 
 .txt-following{
@@ -132,13 +133,13 @@ padding-top: 10px;
   color: #4985FF;
 }
 .txt-projects{
-  padding-left: 200px;
+
   padding-top: 100px;
 }
 .one{
 
-  width: 1000px;
-margin-left: 210px;
+
+
 margin-top: 50px;
 
 }
@@ -176,7 +177,7 @@ color: #999999;
  display: inline;
 }
 .button-ani{
-  padding-left: 800px;
+  
   padding-top: 50px;
 }
 .Rectangle{
@@ -212,7 +213,7 @@ color: #999999;
 }
 .study1{
   padding-top: 20px;
-  padding-left: 0px;
+
 }
 .numeral{
   color: #4985FF;
