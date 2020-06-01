@@ -20,11 +20,12 @@ font-family: "Monserrat-Regular";
 }
 
 .little-title{
-   font-size: 16px;
+   font-size: 30px;
+
 }
-.dig-title{
-  font-weight: 800;
-  font-size: 48px;
+.big-title{
+  font-weight: 300;
+  font-size: 38px;
 }
 .btn{
   background: #4985ff;
@@ -96,7 +97,7 @@ font-family: "Monserrat-Regular";
   justify-content: center;
 }
 .skill{
-  padding-left:27px;
+    padding-left:27px;
  }
 .txt-skill{
 
@@ -122,6 +123,7 @@ display: flex;
 justify-content: center;
 }
 .img-following{
+  padding-top: 20px;
 }
 
 .txt-following{
@@ -137,11 +139,11 @@ padding-top: 10px;
   padding-top: 100px;
 }
 .one{
-
-
-
 margin-top: 50px;
-
+display: flex;
+}
+.blok-project{
+  padding-bottom: 30px;
 }
 .img-two{
   justify-content: center;
@@ -149,11 +151,12 @@ margin-top: 60px;
 }
 .img{
   display: inline;
-  padding-left: 150px;
+    padding-left: 10%;
+
   font-size: 30px;
 }
 .under{
-padding-left: 150px;
+padding-left: 10%;
 display: inline;
 color: #999999;
 }
@@ -161,11 +164,19 @@ color: #999999;
   background: #F6F6F8;
 }
 /*-------------------------------------------------------*/
-.kit{
+.fon{
   height: 380px;
   background: #8a2be2;
-
-
+}
+.title-animation{
+  padding-top: 35px;
+  padding-left: 12%;
+  color: white;
+  font-size: 40px;
+}
+.top-blok{
+  padding-top: 35px;
+    display: flex;
 }
 .button-animation{
   background: #4985ff;
@@ -175,9 +186,10 @@ color: #999999;
   border: none;
   padding: 13px 36px 13px 36px;
  display: inline;
+
 }
 .button-ani{
-  
+
   padding-top: 50px;
 }
 .Rectangle{
@@ -226,5 +238,14 @@ color: #999999;
 }
 .txt-un{
   color: #4985FF;
-  padding-left: 200px;
+  padding-left: px;
+}
+.strip{
+
+}
+.gallery{
+  padding-top: 300px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 50% 50%;
 }
